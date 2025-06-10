@@ -1,0 +1,57 @@
+﻿<ContentPage
+    x:Class="MauiApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView x:Name="mainScrollView" VerticalScrollBarVisibility="Never">
+        <VerticalStackLayout Padding="10" Spacing="20">
+
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    Grid.Column="0"
+                    Clicked="GiveHint"
+                    FontSize="24"
+                    Text="Get Hint" />
+
+                <Label
+                    Grid.Column="1"
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    Text="Find the Dud!"
+                    VerticalOptions="Center" />
+
+                <Button
+                    Grid.Column="2"
+                    Clicked="GiveUp"
+                    FontSize="24"
+                    HorizontalOptions="End"
+                    Text="Give Up" />
+            </Grid>
+
+
+
+
+            <Label
+                x:Name="hintLabel"
+                FontSize="18"
+                IsVisible="False"
+                VerticalOptions="Center" />
+
+            <Grid
+                x:Name="smileyGrid"
+                Padding="10"
+                ColumnSpacing="10"
+                HorizontalOptions="FillAndExpand"
+                RowSpacing="10"
+                VerticalOptions="FillAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
