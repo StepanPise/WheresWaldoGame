@@ -6,6 +6,10 @@ The game includes a hint feature, a give-up option, and a scoreboard with the fa
 
 ![dud (1)](https://github.com/user-attachments/assets/4f76aeed-80fd-4097-b8e9-52c636ec9300)
 
+## Getting Started
+
+Download the project and open it using Visual Studio with .NET MAUI support.
+
 ## Technologies Used
 
 * Application Framework: .NET MAUI
