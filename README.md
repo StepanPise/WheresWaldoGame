@@ -1,6 +1,6 @@
 **Where's Waldo inspired game**
 
-![dud](https://github.com/user-attachments/assets/6f3fcd9c-912b-4f29-a35e-dffae5612989)
+![dud (1)](https://github.com/user-attachments/assets/4f76aeed-80fd-4097-b8e9-52c636ec9300)
 
 **Technologies Used**
 
